@@ -156,9 +156,25 @@ Curso de Git (Notas)
         > git branch -m NovoNome
             // Alterar o nome de uma branch, mas estando noutra branch
         > git branch -m nomeAntigo novoNome
+            // Para apagar uma branch. Neste caso, se ainda não tivermos feito merge, dará um aviso
+        > git branch -d nomeDaBranch
+            // Se tivermos a CERTEZa que queremos apagar uma branch
+        > git branch -D nomeDaBranch
         ____________________________
 
     
+    -> git checkout
+        - Serve para alternar entre branches
+        ____________________________
+            //Depois de fazer um 'git log', teremos os codigos de commit. Podemos usar esses codifgos para "viajar" entre commits.
+        > git checkout codigo
+            // apontar para a branch master
+        > git checkout master
+        ____________________________
+
+
+
+
 
 5) Ficheiro .gitignore
     
