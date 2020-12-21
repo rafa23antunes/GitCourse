@@ -3,4 +3,4 @@ temp
 
 # Ignora todos os arquivos .pass
 # .pass
-Git-Notas.txt
+/Git-Notas.txt
