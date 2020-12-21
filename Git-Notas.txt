@@ -74,10 +74,10 @@ Curso de Git (Notas)
     -> git config
         - Utilizado para fazer configurações de identificação. Basta fazer uma vez.
         ____________________________
-        // Estes cmds basta fazer uma vez
+            // Estes cmds basta fazer uma vez
         > git config --global user.name rafa23antunes
         > git config --global user.email rafaelantunesro@gmail.com
-        // Este cmd serve para ver o que está configurado
+            // Este cmd serve para ver o que está configurado
         > git config -- list
         ____________________________
     
@@ -93,10 +93,10 @@ Curso de Git (Notas)
         - Serve para adicionar arquivos ao repositório local
         - Utilizando o ' . ' a seguir ao add, adicionamos todos os arquivos à area de preparação. Se quisessemos ficheiros específicos, teriamos de escrever o nome deles. PAra adicionar todos os arquivos também é possível escrever, a seguir ao add, '-A' ou ' --all'.
         ____________________________
-        // adicionar TODOS os ficheiros à area de preparação
+            // adicionar TODOS os ficheiros à area de preparação
         > git add .
 
-        // Tb é possível fazer filtros. P.E., ficheiros terminados em txt
+            // Tb é possível fazer filtros. P.E., ficheiros terminados em txt
         > git add *.txt
         ____________________________
 
@@ -107,7 +107,7 @@ Curso de Git (Notas)
         ____________________________
         > git commit -m "mensagem aqui"
 
-        // É Possível também fazer o add e o commit no mesmo comando, executando:
+            // É Possível também fazer o add e o commit no mesmo comando, executando:
         > git commit -a -m "mensagem a por"
         ____________________________
 
@@ -116,7 +116,7 @@ Curso de Git (Notas)
         - Serve para visualizar as mudanças do conteúdo dos arquivos
         - É costume utilizar-se antes de adicinar um arquivo para ver se nada está a ser enviado por engano. (Antes do 'git add)'
         ____________________________
-        // se não tiver o nome do ficheiro, faz o diff de todos os ficheiros. 
+            // se não tiver o nome do ficheiro, faz o diff de todos os ficheiros. 
         > git diff 
 
         > git diff Git-Notas.txt
@@ -128,7 +128,7 @@ Curso de Git (Notas)
         - Para verificar quando certa alteração ocorreu
         ____________________________
         > git log
-        // Se quisermos ver mais resumido
+            // Se quisermos ver mais resumido
         > git log --oneline
         ____________________________
 
@@ -136,12 +136,27 @@ Curso de Git (Notas)
     -> git reset
         - Utilizada quando fizemos uma alteração e queremos desfaze-la.
         ____________________________
-        // No repositório, move o nosso apontador Head para o ficheiro anterior
+            // No repositório, move o nosso apontador Head para o ficheiro anterior
         > git reset --soft HEAD~1
-        // Agora tanto no repositorio como na area da preparação, o apontador aponta para a versão anterior do ficheiro
+            // Agora tanto no repositorio como na area da preparação, o apontador aponta para a versão anterior do ficheiro
         > git reset --mixed HEAD~1
-        // Agora o apontador é atualizado nas três areas (repositório, area de preparação, diretório do trabalho)
+            // Agora o apontador é atualizado nas três areas (repositório, area de preparação, diretório do trabalho)
         > git reset --hard HEAD~1
+        ____________________________
+    
+
+    -> git branch
+        - Uma branch representa uma bifurcação, serve para criarmos uma área diferente no nosso repositório.
+        - Depende de como o projeto funciona, mas normalmente, cada membro do grupo cria a sua própria branch quando vai desenvolver alguma coisa.
+        ____________________________
+        > git branch nomeDaNovaBranch (não é necessário parentesis)
+            // Se quisermos ver todas as branches fazemos
+        > git branch
+            //Alterar o nome da branch onde estamos
+        > git branch -m NovoNome
+            // Alterar o nome de uma branch, mas estando noutra branch
+        > git branch -m nomeAntigo novoNome
+        ____________________________
 
     
 
@@ -152,3 +167,5 @@ Curso de Git (Notas)
     -> Pode ser criado a qualquer momento mas geralmente é criado após a criação de um repositório.
 
     -> Tenho um exemplo na pasta.
+
+
