@@ -123,6 +123,19 @@ Curso de Git (Notas)
         ____________________________
 
 
+    -> git log
+        - Visualizar o histórico de um repositório
+        - Para verificar quando certa alteração ocorreu
+        ____________________________
+        > git log
+        // Se quisermos ver mais resumido
+        > git log --oneline
+        ____________________________
+
+
+
+    
+
 5) Ficheiro .gitignore
     
     -> Define quais ficheiros específicos, ou padrão de ficheiros que devem ser ignorados.
