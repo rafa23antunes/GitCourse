@@ -91,5 +91,19 @@ Curso de Git (Notas)
     
     -> git add
         - Serve para adicionar arquivos ao repositório local
+        - Utilizando o ' . ' a seguir ao add, adicionamos todos os arquivos à area de preparação. Se quisessemos ficheiros específicos, teriamos de escrever o nome deles. PAra adicionar todos os arquivos também é possível escrever, a seguir ao add, '-A' ou ' --all'.
         ____________________________
+        // adicionar TODOS os ficheiros à area de preparação
         > git add .
+
+        // Tb é possível fazer filtros. P.E., ficheiros terminados em txt
+        > git add *.txt
+        ____________________________
+
+    
+    -> git commit
+        - Guardar os arquivos no repositório local.
+        - Deve-se sempre passar uma mensagem simples e clara do que foi feito.
+        ____________________________
+        -> git commit -m "mensagem aqui"
+        ____________________________
