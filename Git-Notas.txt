@@ -1,0 +1,95 @@
+Curso de Git (Notas)
+
+
+ 1) O que é o Git?
+
+    -> Sistema de controlo de versão DISTRIBUÍDO
+        - Todo o colaborador possui uma cópia do repositório
+        - Ações podem ser feitas localmente
+        - Não depende de uma única máquina
+    -> Open Source
+    -> Rápido e eficiente
+
+
+
+2) Diferenças entre o Git/GitHub/GitLab
+
+    -> GitHub
+        - Serviço na nuvem, para armazenamento de repositórios do Git
+        - Funcionalidades facilitam a colaboração entre usuários
+        - Permite a criação de repositórios públicos e privados gratuitamente
+    -> GitLab
+        - Muito semelhante ao GitHub mas, em média, mais utilizado pelas empresas
+    
+
+
+3) Como funciona o Git?
+
+    -> Em sistemas distribuidos, os colaboradores do projecto quando fazem a cópia de um projeto, não copiam somente a ultima versao, mas sim o repositório todo com o historico de alterações. Assim problemas relacionados a dependencias do servidor não existem mais.
+
+    -> Caracteristicas :
+        - Operações Locais
+        - Suporte a desenvolvimento não linear
+        - Integridade
+        - Independencia de Complexidade de projecto
+
+
+
+
+3.5) Os 3 estados
+
+    -> Modificado   (Modified)
+        - Cada vez que, no repositório, um fiheiro é marcado, removovido ou modificado, ele é marcado como 'modificado'.
+        - Significa que o arquivo sofreu alterações mas ainda não faz parte do commit.
+
+    -> Preparado    (Staged)
+        - A partir momento que executo ' git add '
+        - Neste momento sabemos que o arquivo foi modificado e está na área de preparação para ser consolidado.
+
+    -> Consolidado  (Commited)
+        - Após a preparação, os arquivos são salvos quando o comando ' git commit ' é executado.
+
+    ---> WORKFLOW
+        Modificaçao nos arquivos no diretório de trabalho 
+       ---> ' git add ' --->
+       Arquivos são selecionados e adicionados à area de preparação 
+       ---> ' git commit ' --->
+       Comando commit é executado e leva os arquivos do estado de preparação para o estado consolidado, escrevendo a versão final. 
+    
+
+
+
+4) Comandos
+
+    -> git init 
+        - Para que serve?:
+            Este comando é responsável por fazer a criação e inicialização de um repositório Git. Pode ser Executado num diretório vazio ou com arquivos existentes. 
+        - Quando é usado?
+            Quando queremos incluir um projeto ao controlo de versões.        
+        ____________________________
+        > git init
+        ____________________________
+
+
+    -> git config
+        - Utilizado para fazer configurações de identificação. Basta fazer uma vez.
+        ____________________________
+        // Estes cmds basta fazer uma vez
+        > git config --global user.name rafa23antunes
+        > git config --global user.email rafaelantunesro@gmail.com
+        // Este cmd serve para ver o que está configurado
+        > git config -- list
+        ____________________________
+    
+
+    -> git status
+        - Utilizado para saber como estão os arquivos num determinado repositório.
+        ____________________________
+        > git status
+        ____________________________
+    
+    
+    -> git add
+        - Serve para adicionar arquivos ao repositório local
+        ____________________________
+        > git add .
