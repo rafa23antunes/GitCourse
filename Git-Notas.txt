@@ -105,7 +105,10 @@ Curso de Git (Notas)
         - Guardar os arquivos no repositório local.
         - Deve-se sempre passar uma mensagem simples e clara do que foi feito.
         ____________________________
-        -> git commit -m "mensagem aqui"
+        > git commit -m "mensagem aqui"
+
+        // É Possível também fazer o add e o commit no mesmo comando, executando:
+        > git commit -a -m "mensagem a por"
         ____________________________
 
     
@@ -115,4 +118,4 @@ Curso de Git (Notas)
         ____________________________
         // se não tiver o nome do ficheiro, faz o diff de todos os ficheiros. 
         > git diff Git-Notas.txt
-        
+
