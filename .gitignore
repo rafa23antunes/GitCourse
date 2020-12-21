@@ -1,2 +1,5 @@
 # Ignora o diretorio temp e tudo que existe dentro dele
 temp
+
+# Ignora todos os arquivos .pass
+# .pass

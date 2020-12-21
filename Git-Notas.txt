@@ -127,4 +127,6 @@ Curso de Git (Notas)
     
     -> Define quais ficheiros específicos, ou padrão de ficheiros que devem ser ignorados.
     
-    -> Pode ser criado a quualquer momento mas geralmente é criado após a criação de um repositório.
+    -> Pode ser criado a qualquer momento mas geralmente é criado após a criação de um repositório.
+
+    -> Tenho um exemplo na pasta.
