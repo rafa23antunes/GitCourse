@@ -111,7 +111,7 @@ Curso de Git (Notas)
     
     -> git diff
         - Serve para visualizar as mudanças do conteúdo dos arquivos
-        - É costume utilizar-se antes de adicinar um arquivo para ver se nada está a ser enviado por engano.
+        - É costume utilizar-se antes de adicinar um arquivo para ver se nada está a ser enviado por engano. (Antes do 'git add)'
         ____________________________
         // se não tiver o nome do ficheiro, faz o diff de todos os ficheiros. 
         > git diff Git-Notas.txt
