@@ -118,7 +118,13 @@ Curso de Git (Notas)
         ____________________________
         // se não tiver o nome do ficheiro, faz o diff de todos os ficheiros. 
         > git diff 
-        
+
         > git diff Git-Notas.txt
         ____________________________
 
+
+5) Ficheiro .gitignore
+    
+    -> Define quais ficheiros específicos, ou padrão de ficheiros que devem ser ignorados.
+    
+    -> Pode ser criado a quualquer momento mas geralmente é criado após a criação de um repositório.
