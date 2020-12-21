@@ -172,6 +172,8 @@ Curso de Git (Notas)
         > git checkout master
             // Criar uma branch e mudar logo para essa branch
         > git checkout -b nomeNovaBranch
+            // Se quisermos fazer um reset num ficheiro
+        > git checkout nomeDoficheiro
         ____________________________
 
 
