@@ -107,3 +107,12 @@ Curso de Git (Notas)
         ____________________________
         -> git commit -m "mensagem aqui"
         ____________________________
+
+    
+    -> git diff
+        - Serve para visualizar as mudanças do conteúdo dos arquivos
+        - É costume utilizar-se antes de adicinar um arquivo para ver se nada está a ser enviado por engano.
+        ____________________________
+        // se não tiver o nome do ficheiro, faz o diff de todos os ficheiros. 
+        > git diff Git-Notas.txt
+        
