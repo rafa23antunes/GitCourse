@@ -117,5 +117,8 @@ Curso de Git (Notas)
         - É costume utilizar-se antes de adicinar um arquivo para ver se nada está a ser enviado por engano. (Antes do 'git add)'
         ____________________________
         // se não tiver o nome do ficheiro, faz o diff de todos os ficheiros. 
+        > git diff 
+        
         > git diff Git-Notas.txt
+        ____________________________
 
