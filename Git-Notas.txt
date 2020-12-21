@@ -133,6 +133,15 @@ Curso de Git (Notas)
         ____________________________
 
 
+    -> git reset
+        - Utilizada quando fizemos uma alteração e queremos desfaze-la.
+        ____________________________
+        // No repositório, move o nosso apontador Head para o ficheiro anterior
+        > git reset --soft
+        // Agora tanto no repositorio como na area da preparação, o apontador aponta para a versão anterior do ficheiro
+        > git reset --mixed
+        // Agora o apontador é atualizado nas três areas (repositório, area de preparação, diretório do trabalho)
+        > git reset --hard
 
     
 
