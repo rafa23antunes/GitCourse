@@ -178,6 +178,39 @@ Curso de Git (Notas)
 
 
 
+    -> git stach
+        - Serve para guardar as alterações locais sem ser necessário fazer o download noutro lugar.
+        - Serve para sempre que quisermos mudar entre branches sem termos de abandonar as nossas alterações.
+        ____________________________
+            // "Guardar" as alterações localmente para retornar ao passo anterior.
+        > git stach
+            // Ver o que temos "guardado localmente"
+        > git stach list
+            //Trazer as alterações guardadas
+        > git stach apply
+            // Apagar as alterações guardadas da lista. Depois de fazer um 'git stash list', vemos o 'stash@{num}' e:
+        > git stash drop stash@{num}
+
+            // Temos ainda este comando que faz diretamente os dois cmandos anteriores
+        > git stash pop
+        ____________________________
+    
+
+    -> git clone
+        - Serve para fazer o download do repositório remoto especificado, usando a URL formada.
+        ____________________________
+        > git clone URL
+        ____________________________
+
+
+    -> git push
+        - Serve para enviar ficheiros para repositórios remotos.
+        ____________________________
+        > git push
+        // Depois temos de por as nossas credenciais do GitHub 
+        ____________________________
+
+
 
 
 5) Ficheiro .gitignore
