@@ -213,9 +213,11 @@ Curso de Git (Notas)
 
     -> git pull 
         - Serve para atualizar o repositório local.
-        - Usamos quando precisamos de faer download de algum conteudo para o nosso rep. local.
+        - Usamos quando precisamos de fazer download de algum conteudo para o nosso rep. local. Ou seja se alguem fizer alguma alteração no repositório remoto, fazemos git pull.
         ____________________________
-        
+            // Sempre que quisermos atualizar o repositorio local
+        > git pull
+        ____________________________
 
 
 
