@@ -211,6 +211,12 @@ Curso de Git (Notas)
         ____________________________
 
 
+    -> git pull 
+        - Serve para atualizar o repositório local.
+        - Usamos quando precisamos de faer download de algum conteudo para o nosso rep. local.
+        ____________________________
+        
+
 
 
 5) Ficheiro .gitignore

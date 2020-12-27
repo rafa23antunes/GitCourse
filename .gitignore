@@ -4,3 +4,5 @@ temp
 # Ignora todos os arquivos .pass
 # .pass
 /Git-Notas.txt
+
+.DS_Store
